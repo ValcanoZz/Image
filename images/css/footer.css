@@ -1,0 +1,37 @@
+.footer {
+    display: grid;
+
+    /*margin: 0 215px 115px;*/
+    padding: 80px 215px 115px;
+    /*margin: 0 215px 115px;*/
+    grid-template-columns: 275px 275px 275px 275px;
+    grid-column-gap: 5px;
+
+    background-color: rgba(0, 0, 0, 0.95);
+    color: white;
+    font-family: "Montserrat ExtraLight";
+}
+
+.footer-title {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.footer-content {
+    font-size: 16px;
+    opacity: 0.3;
+    margin-top: 30px;
+}
+
+.mini-program {
+    margin-top: 30px;
+    font-size: 16px;
+    opacity: 0.3;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-column-gap: 20px;
+}
+
+.footer-content-icon {
+    margin-right: 20px;
+}

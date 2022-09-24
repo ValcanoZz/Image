@@ -1,0 +1,98 @@
+.contacts-page {
+    display: grid;
+
+    padding-top: 65px;
+    margin-left: 80px;
+    margin-bottom: 70px;
+
+    grid-template-columns: 470px 370px;
+    /*grid-template-rows: 340px 340px;*/
+    /* 行和列的间隙   */
+    /*grid-row-gap: 30px;*/
+    grid-column-gap: 130px;
+
+    font-family: "Montserrat ExtraLight";
+}
+
+.contacts-box1 {
+    width: 460px;
+    height: 560px;
+
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.contacts-box1-sub {
+    margin: 30px 50px 65px;
+}
+
+.fell {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+}
+
+.contacts-form-input {
+    /*370 - 20*/
+    width: 350px;
+    padding-left: 20px;
+    height: 50px;
+    line-height: 50px;
+
+    margin-bottom: 30px;
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+.contacts-form-input-message {
+    /*370 - 20*/
+    width: 350px;
+    padding-left: 20px;
+    padding-top: 20px;
+    /*height: 50px;*/
+    /*line-height: 50px;*/
+
+    margin-bottom: 30px;
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+.contacts-submit {
+    width: 370px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
+
+/*.contacts-box2 {*/
+/*    padding-bottom: 110px;*/
+/*    !*border: 1px solid rgba(0, 0, 0, 0.1);*!*/
+/*}*/
+
+.contacts {
+    margin-top: 85px;
+    font-size: 40px;
+}
+
+.make-any {
+    margin-top: 35px;
+    font-size: 15px;
+    opacity: 0.7;
+    margin-bottom: 70px;
+}
+
+.contacts-pic-text {
+    display: grid;
+
+    grid-template-columns: 30px 230px;
+    /*grid-template-rows: 340px 340px;*/
+    /* 行和列的间隙   */
+    grid-row-gap: 30px;
+    grid-column-gap: 10px;
+
+}

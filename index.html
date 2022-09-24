@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <!--mobile apps-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content=""/>
+    <script type="application/x-javascript"> addEventListener("load", function () {
+        setTimeout(hideURLbar, 0);
+    }, false);
+
+    function hideURLbar() {
+        window.scrollTo(0, 1);
+    } </script>
+    <!--mobile apps-->
+    <!--Custom Theme files -->
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <link type="text/css" rel="stylesheet" href="css/contacts-page.css"/>
+    <link href="css/footer.css" type="text/css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen"/>
+    <!-- //Custom Theme files -->
+    <!--web-fonts-->
+    <link href='http://fonts.useso.com/css?family=Oranienbaum' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.useso.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic'
+          rel='stylesheet' type='text/css'>
+    <!--//web-fonts-->
+    <!-- js -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <!-- //js -->
+    <!--flipster-js-->
+    <link rel="stylesheet" href="css/jquery.flipster.css">
+    <link rel="stylesheet" href="css/flipsternavtabs.css">
+    <!--//flipster-js-->
+    <!--animate-->
+    <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+        .myHref {
+            text-decoration: none;
+
+        }
+    </style>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!--//end-animate-->
+    <!--start-smooth-scrolling-->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({scrollTop: $(this.hash).offset().top}, 1000);
+            });
+        });
+    </script>
+    <!--//end-smooth-scrolling-->
+    <style>
+        .my_title {
+            font-family:"Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu
+            /*font-family: “Arial”*/
+            /*font: 12px/1.5 Tahoma,Helvetica,Arial,‘宋体’,sans-serif;*/
+        }
+    </style>
+</head>
+<body>
+<!--banner-->
+<div class="banner">
+    <!--navigation-->
+    <div class="top-nav">
+        <div class="container">
+            <div class="navbar-header logo">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--<span class="glyphicon glyphicon-leaf"></span>-->
+                <h1 class="wow fadeInUp animated" data-wow-delay=".5s">
+                    <a href="index.html"><img src="images/team/team_logo.png" width="200" height="200"/> </a>
+                </h1>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-right">
+                    <li><a href="index.html" class="active"><span data-hover="Home">首页</span></a></li>
+                    <li><a href="#about" class="scroll"><span data-hover="About">历史背景</span></a></li>
+                    <li><a href="#services" class="scroll"><span data-hover="Services">英歌构成</span></a></li>
+                    <li><a href="#team" class="scroll"><span data-hover="Team">团队风采</span></a></li>
+                    <li><a href="#product" class="scroll"><span data-hover="Product">周边产品</span></a></li>
+                    <li><a href="#gallery" class="scroll"><span data-hover="Gallery">图片展示</span></a></li>
+                    <li><a href="#testimonials" class="scroll"><span data-hover="Testimonials">相关点评</span></a></li>
+                    <li><a href="#contact" class="scroll"><span data-hover="Contact">联系我们</span></a></li>
+                    <!--<li><a href="#" class="sign-in" data-toggle="modal" data-target="#myModal">注 册</a></li>-->
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+    <!--//navigation-->
+    <div class="banner-text">
+        <h2 class="bnr-title wow zoomIn animated" data-wow-delay=".5s"><span class="my_title">潮汕 & 英歌</span></h2>
+        <p class="wow fadeInUp animated" data-wow-delay=".7s">ChaoShan English song and dance is one of the dance forms
+            of the Han nationality</p>
+        <div class="more">
+            <a href="#about" class="button scroll" data-text="More About">精彩呈现</a>
+        </div>
+        <!--<div class="social-icons wow slideInUp animated" data-wow-delay=".9s">-->
+        <!--    <ul>-->
+        <!--        <li><a href="#"> </a></li>-->
+        <!--        <li><a href="#" class="pin"> </a></li>-->
+        <!--        <li><a href="#" class="in"> </a></li>-->
+        <!--        <li><a href="#" class="be"> </a></li>-->
+        <!--        <li><a href="#" class="you"> </a></li>-->
+        <!--        <li><a href="#" class="vimeo"> </a></li>-->
+        <!--    </ul>-->
+        <!--</div>-->
+    </div>
+</div>
+<!--//banner-->
+<!--modal-sign-->
+<div class="modal sign-in-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <section>
+                <div class="modal-body modal-spa">
+                    <div class="login-grids">
+                        <div class="login">
+                            <form action="#" method="post">
+                                <h3>您好！请填写您的相关信息</h3>
+                                <input type="text" name="Email" value="输入您的昵称或邮箱" onfocus="this.value = '';"
+                                       onblur="if (this.value == '') {this.value = 'Enter your mobile number or Email';}"
+                                       required="">
+                                <input type="password" name="password" value="您的密码" onfocus="this.value = '';"
+                                       onblur="if (this.value == '') {this.value = 'Password';}" required="">
+                                <h4><a href="#">忘记密码</a></h4>
+                                <div class="check-box">
+                                    <input name="chekbox" type="checkbox" id="brand" value="">
+                                    <label for="brand"><span></span>记住我</label>
+                                </div>
+                                <input type="submit" value="注册账号">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<!--//modal-sign-->
+<!--about-->
+<div class="about" id="about">
+    <div class="container">
+        <h3 class="title wow lightSpeedIn animated" data-wow-delay=".5s">英歌&背景</h3>
+        <div class="about-info">
+            <div class="col-md-6 about-left wow slideInUp animated" data-wow-delay=".5s">
+                <img src="images/y1.jpg" alt=""/>
+            </div>
+            <div class="col-md-6 about-right wow slideInUp animated" data-wow-delay=".7s">
+                <div class="tabs"> <!--Nav-tabs-->
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#Tab1" data-toggle="tab">由来 origin</a></li>
+                        <li><a href="#Tab2" data-toggle="tab">特点 style</a></li>
+                    </ul>
+                </div>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div class="tab-pane active" id="Tab1">
+                        <div class="text">
+                            <p>英歌舞的由来有三种说法，一种是“及时雨说”，一种是“秧歌说”，一种是“傩舞说”。英歌是大潮汕地区流传的传统舞蹈。作为当地民间敬神活动，明初从福建等地区传入。</p>
+                            <p class="tab-text">
+                                明末，一些习武者将原来从福建传入的英歌舞，经过当地武术师的指点辅导和改进，形成有独特风格的潮汕英歌舞。潮汕地区在元宵节的灯会、端午节的龙舟会、中秋节的赏月会等场合，都要表演英歌舞。
+                                英歌舞属汉族广场情绪舞蹈，汕头市潮阳区、潮南区，揭阳市普宁市、惠来县， 汕尾市陆丰市
+                                ，潮州市潮安区，是英歌舞最盛行的地区。根据民间艺人的口耳辈传和一些佐证资料的介绍，潮阳英歌源溯明代
+                            </p>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="Tab2">
+                        <div class="text">
+                            <p>英歌舞分前后棚，前棚36人，每人手执长约1尺4寸，直径4厘米的彩色木棒，配合锣鼓点、海螺号和吆喝声，两棒相击翻转，边走边舞。</p>
+                            <p class="tab-text">
+                                在农村，英歌被群众看作是英雄的化身、吉祥的象征、驱邪的魔力。一般参加英歌队者都应是年轻力壮、英武潇洒的小伙子。表演英歌舞者在平时的生活中和周围群众关系极好，朋友也多。姑娘们对他更有一种爱慕之情，常常从英歌队中挑选自己的意中人。特别是头槌和二槌，更是姑娘们追求的对象。跳英歌舞历来被视为吉祥的化身，人们认为跳英歌舞是“好彩头”。这年谁能够进入英歌队，这年办事就顺利，事事如意。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!--//about-->
+<!--services-->
+<div class="services" id="services">
+    <div class="container">
+        <h3 class="title wow lightSpeedIn animated" data-wow-delay=".5s">英歌&组成</h3>
+        <div class="services-row">
+            <div class="col-md-6 services-left wow bounceInLeft animated" data-wow-delay=".5s">
+                <div class="services-grid">
+                    <div class="col-xs-3 services-grid-left">
+                        <span class="glyphicon glyphicon-heart effect-1" aria-hidden="true"></span>
+                    </div>
+                    <div class="col-xs-9 services-grid-right">
+                        <h4><strong>前棚</strong>是英歌队伍整体组织中的前头部分，也是英歌队的主体部分。整个队伍中的2/3的人手握两节木棒，每节长尺余，敲击起舞，通过刚劲有力的舞蹈表演，表现英雄事迹。1/3的人，手拿小鼓槌棒，敲打起舞，助威前进。另外，队伍中必有一人扮时迁，手执布制长蛇，穿梭腾跃，调整队形，交流舞姿动作和舞蹈图形信息，前棚舞蹈队伍表演时，敲击着木棒和小鼓，伴随着“冬冬喳，冬冬喳，冬冬喳”的英歌锣鼓节奏，紧凑速齐地以优美的舞姿，演出各式各样的舞蹈动作和编演表现攻城战阵的舞图形。威武壮观，具有强烈的感人艺术魅力，给观众以振奋昂扬的感受，激发人们扮英雄、学英雄的积极进取的精神。
+                        </h4>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="services-grid services-grid-mdl">
+                    <div class="col-xs-3 services-grid-left">
+                        <span class="glyphicon glyphicon-user effect-1" aria-hidden="true"></span>
+                    </div>
+                    <div class="col-xs-9 services-grid-right">
+                        <h4><strong>中棚</strong>的演出节目，主要是表演一些剧性较强、娱乐气氛浓郁的传统曲艺节目。其传统的完整表演节目有13个，都是以民间趣闻轶事为题材进行艺术加工编演的，这十三个节目，内容丰富，需要众多的技艺双全的人才扮演。一般情况下，比较难齐全地表演全部节目，便有选择地表演其中若干个。
+                        </h4>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="services-grid">
+                    <div class="col-xs-3 services-grid-left">
+                        <span class="glyphicon glyphicon-time effect-1" aria-hidden="true"></span>
+                    </div>
+                    <div class="col-xs-9 services-grid-right">
+                        <h4><strong>后棚</strong>是英歌整体组织中的后头部队，这部分代表梁山泊起义军与民众汇合在一起，组成强大的后备力量。每人手执各类刀、枪、剑、戟，形成声势浩大的武士队伍。这支队伍，一般由象征性的十六或二十四、三十六人组成，人数没有严格的数量要求，只求偶数。这支队伍的成员，轮番上场，各自表演各式套路的武术，以表现梁山泊义士个个是英雄好汉。表演过程中，有拳术单打、对打、混合打，也有各种器械的单打、对打、混合打；拳攻腿踢，棍击枪刺，刀光剑影，真枪实打，惊心动魄，扣人心弦。
+                        </h4>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="col-md-6 services-right wow bounceInRight animated" data-wow-delay=".5s">
+                <img src="images/s1.jpg" alt=""/>
+                <img src="images/s4.jpg" alt=""/>
+                <img src="images/s3.jpg" alt=""/>
+                <img src="images/s2.jpg" alt=""/>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</div>
+<!--//services-->
+<!--team-->
+<div class="team" id="team">
+    <div class="container">
+        <h3 class="title wow lightSpeedIn animated" data-wow-delay=".5s">Meet Our Team</h3>
+        <div class="team-info wow slideInUp animated" data-wow-delay=".5s">
+            <div class="flipster">
+                <ul>
+                    <li>
+                        <img src="images/team/erye.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <h4>二 爷</h4>
+                            <p>财务管理专业</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/team/huang.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <h4>黄 黄</h4>
+                            <p>财务管理专业</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/team/yingtang.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <h4>硬 糖</h4>
+                            <p>商务英语专业</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/team/pengpeng.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <h4>鹏 鹏</h4>
+                            <p>财务管理专业</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/team/yangyang.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <h4>羊 羊</h4>
+                            <p>自动化师范专业</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/team/xiong.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <h4>小 熊</h4>
+                            <p>财务管理专业</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/team/pingjian.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <h4>平 坚</h4>
+                            <p>电气工程及其自动化专业</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/team/ltj%20(2).jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <h4>广东小菜鸡</h4>
+                            <p>计科院-19软件工程2班</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/team/lwj.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <h4>缩头乌鸡</h4>
+                            <p>计科院-19软件2班</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/team/lucky.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <h4>幸运儿</h4>
+                            <p>物流管理（师范）专业</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/team/jing.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <h4>小 靖</h4>
+                            <p>市场营销专业</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/team/xm7.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <h4>mx7</h4>
+                            <p>人力资源管理专业</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/team/yuan.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <h4>远 远</h4>
+                            <p>新闻学专业</p>
+                        </div>
+                    </li>
+					
+					<li>
+                        <img src="images/team/cheese.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <h4>奶 酪</h4>
+                            <p>美术学专业</p>
+                        </div>
+                    </li><li>
+                        <img src="images/team/小福哥.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <h4>小福哥</h4>
+                            <p>机械设计及其自动化专业</p>
+                        </div>
+                    </li><li>
+                        <img src="images/team/阿伟.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <h4>阿伟</h4>
+                            <p>文传学院</p>
+                        </div>
+                    </li><li>
+                        <img src="images/team/小鱼.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <h4>小 鱼</h4>
+                            <p>新闻学专业</p>
+                        </div>
+                    </li><li>
+                        <img src="images/team/朱朱.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <h4>朱 朱</h4>
+                            <p>财务管理专业</p>
+                        </div>
+                    </li><li>
+                        <img src="images/team/够够.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <h4>够 够</h4>
+                            <p>商务英语专业</p>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+            <script src="js/jquery.flipster.js"></script>
+            <script>
+                $(function () {
+                    $(".flipster").flipster({style: 'carousel', start: 0});
+                });
+            </script>
+        </div>
+    </div>
+</div>
+<div class="team" id="product">
+    <div class="container">
+        <h3 class="title wow lightSpeedIn animated" data-wow-delay=".5s">Meet Our Product</h3>
+        <div class="team-info wow slideInUp animated" data-wow-delay=".5s">
+            <div class="flipster">
+                <ul>
+                    <li>
+                        <img src="images/product/shoujike_1.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <!--<h4>二 爷</h4>-->
+                            <p>花和尚鲁智深是一百零八人中唯一真正带给我们光明和温暖的人物。他是无畏的，机敏的，英勇的，坦率的，开朗的。手机壳采用明亮的色调，将人物以及人物性格表现出来。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/product/shoujike_2.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <!--<h4>二 爷</h4>-->
+                            <p>花和尚鲁智深是一百零八人中唯一真正带给我们光明和温暖的人物。他是无畏的，机敏的，英勇的，坦率的，开朗的。手机壳采用明亮的色调，将人物以及人物性格表现出来。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/product/shoujike_3.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <!--<h4>二 爷</h4>-->
+                            <p>花和尚鲁智深是一百零八人中唯一真正带给我们光明和温暖的人物。他是无畏的，机敏的，英勇的，坦率的，开朗的。手机壳采用明亮的色调，将人物以及人物性格表现出来。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/product/shoujike_4.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <!--<h4>二 爷</h4>-->
+                            <p>黑旋风李逵，生性粗鲁、长相恐怖、不擦煤墨浑身黑，似着朱砂两眼红，使一对夹钢板斧。他是胆大心细的，爱憎分明的，率直粗犷的。手机壳采用沉闷的色调，将人物以及人物的猛汉形象表现出来。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/product/shoujike_5.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <!--<h4>二 爷</h4>-->
+                            <p>黑旋风李逵，生性粗鲁、长相恐怖、不擦煤墨浑身黑，似着朱砂两眼红，使一对夹钢板斧。他是胆大心细的，爱憎分明的，率直粗犷的。手机壳采用沉闷的色调，将人物以及人物的猛汉形象表现出来。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/product/shoujike_6.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <!--<h4>二 爷</h4>-->
+                            <p>黑旋风李逵，生性粗鲁、长相恐怖、不擦煤墨浑身黑，似着朱砂两眼红，使一对夹钢板斧。他是胆大心细的，爱憎分明的，率直粗犷的。手机壳采用沉闷的色调，将人物以及人物的猛汉形象表现出来。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/product/shoujike_7.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <!--<h4>二 爷</h4>-->
+                            <p>行者武松，血溅鸳鸯楼后，为了躲避官府追杀，改做头陀打扮，又曾在景阳冈空手打死一只吊睛白额虎，因此“武松打虎”事迹在后世广为流传。他恩怨分明，知恩图报，嫉恶如仇，敢作敢当。手机壳以绿色表现出人物以及人物形象，贴合了武松的正义，充满活力的形象。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/product/shoujike_8.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <!--<h4>二 爷</h4>-->
+                            <p>行者武松，血溅鸳鸯楼后，为了躲避官府追杀，改做头陀打扮，又曾在景阳冈空手打死一只吊睛白额虎，因此“武松打虎”事迹在后世广为流传。他恩怨分明，知恩图报，嫉恶如仇，敢作敢当。手机壳以绿色表现出人物以及人物形象，贴合了武松的正义，充满活力的形象。</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/product/shoujike_9.jpg" height="450px" width="450px" alt="">
+                        <div class="img-text">
+                            <!--<h4>二 爷</h4>-->
+                            <p>行者武松，血溅鸳鸯楼后，为了躲避官府追杀，改做头陀打扮，又曾在景阳冈空手打死一只吊睛白额虎，因此“武松打虎”事迹在后世广为流传。他恩怨分明，知恩图报，嫉恶如仇，敢作敢当。手机壳以绿色表现出人物以及人物形象，贴合了武松的正义，充满活力的形象。</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <script src="js/jquery.flipster.js"></script>
+            <script>
+                $(function () {
+                    $(".flipster").flipster({style: 'carousel', start: 0});
+                });
+            </script>
+        </div>
+    </div>
+</div>
+<!--//team-->
+<!--news-->
+<div class="news">
+    <!--container-->
+    <div class="container">
+        <h3 class="title wow lightSpeedIn animated" data-wow-delay=".5s">News &amp; Origin</h3>
+        <div class="news-row">
+            <div class="col-md-4 news-grid wow slideInLeft animated" data-wow-delay=".5s">
+                <img src="images/b4.jpg" height="350px" width="400px" alt="">
+                <div class="news-grid-info">
+                    <h5><span>①</span> First </h5>
+                    <h4>孔仪说</h4>
+                    <p>受祭孔仪式影响。旧时每年八月廿七日祭拜孔子时，不但要配有整套的音乐和舞蹈，而且舞者有“执短竹”的，这和英歌舞者的“执短棒”有相似的地方。</p>
+                    <div class="article-links">
+                        <ul>
+                            <li><a href="#"><i class="glyphicon glyphicon-heart-empty"></i><span>1,052</span></a></li>
+                            <li><a href="#"><i class="glyphicon glyphicon-comment"></i><span>10K</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 news-grid wow slideInRight animated" data-wow-delay=".5s">
+                <img src="images/b5.webp" height="350px" width="400px" alt="">
+                <div class="news-grid-info">
+                    <h5><span>②</span> Second </h5>
+                    <h4>傩舞说</h4>
+                    <p>由古代傩舞进化而来。英歌舞脸谱一般是黑白、鬼脸，多显凶杀之气，以及英歌的队形变化即古傩舞的驱鬼动作等宗教意识和艺术特征，表明英歌舞是古傩舞改造而来。</p>
+                    <div class="article-links">
+                        <ul>
+                            <li><a href="#"><i class="glyphicon glyphicon-heart-empty"></i><span>1,052</span></a></li>
+                            <li><a href="#"><i class="glyphicon glyphicon-comment"></i><span>10K</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 news-grid wow slideInRight animated" data-wow-delay=".8s">
+                <img src="images/b6.webp" height="350px" width="400px" alt="">
+                <div class="news-grid-info">
+                    <h5><span>③</span> Third </h5>
+                    <h4>秧歌说</h4>
+                    <p>从山东大鼓子秧歌演化而来。因为山东用双手执双槌各击花鼓子双鼓面，所使用的槌子与潮阳英歌舞所执的双槌相似，舞蹈语汇所体现的内容以及舞蹈表演程序，也都有相似之处。</p>
+                    <div class="article-links">
+                        <ul>
+                            <li><a href="#"><i class="glyphicon glyphicon-heart-empty"></i><span>1,052</span></a></li>
+                            <li><a href="#"><i class="glyphicon glyphicon-comment"></i><span>10K</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!--//container-->
+</div>
+<!--//news-->
+<!--gallery-->
+<div id="gallery" class="gallery">
+    <div class="container">
+        <h3 class="title wow lightSpeedIn animated" data-wow-delay=".5s">图片 Picture</h3>
+        <div class="gallery-info">
+            <div class="col-md-3 gallery-grids glry-grid1">
+                <div class="gallery-grids-top wow fadeInUp animated" data-wow-delay=".5s">
+                    <a href="#portfolioModal1" data-toggle="modal">
+                        <img src="images/yingge06.jpg" class="img-responsive" alt=""/>
+                        <div class="b-wrapper">
+                            <h5>普宁英歌</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-grids-top bottom-grids wow fadeInUp animated" data-wow-delay=".7s">
+                    <a href="#portfolioModal2" data-toggle="modal">
+                        <img src="images/yingge05.jpg" class="img-responsive" alt=""/>
+                        <div class="b-wrapper">
+                            <h5>潮安英歌</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 gallery-grids glry-grid2">
+                <div class="gallery-grids-top wow fadeInUp animated" data-wow-delay=".9s">
+                    <a href="#portfolioModal3" data-toggle="modal">
+                        <img src="images/yingge03.jpg" class="img-responsive" alt=""/>
+                        <div class="b-wrapper">
+                            <h5>潮南英歌</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 gallery-grids glry-grid1">
+                <div class="gallery-grids-top wow fadeInUp animated" data-wow-delay="1s">
+                    <a href="#portfolioModal4" data-toggle="modal">
+                        <img src="images/yingge04.jpg" class="img-responsive" alt=""/>
+                        <div class="b-wrapper">
+                            <h5>潮阳英歌</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-grids-top bottom-grids wow fadeInUp animated" data-wow-delay=".5s">
+                    <a href="#portfolioModal5" data-toggle="modal">
+                        <img src="images/yingge02.jpg" class="img-responsive" alt=""/>
+                        <div class="b-wrapper">
+                            <h5>惠来英歌</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3 gallery-grids glry-grid1">
+                <div class="gallery-grids-top wow fadeInUp animated" data-wow-delay=".5s">
+                    <a href="#portfolioModal6" data-toggle="modal">
+                        <img src="images/yingge07.jpg" class="img-responsive" alt=""/>
+                        <div class="b-wrapper">
+                            <h5>潮南英歌</h5>
+                        </div>
+                    </a>
+                </div>
+                <div class="gallery-grids-top bottom-grids wow fadeInUp animated" data-wow-delay=".5s">
+                    <a href="#portfolioModal7" data-toggle="modal">
+                        <img src="images/yingge01.jpg" class="img-responsive" alt=""/>
+                        <div class="b-wrapper">
+                            <h5>陆丰英歌</h5>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <!--gallery Modals-->
+            <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="portfolio-container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h3>Our Gallery</h3>
+                                    <hr>
+                                    <img src="images/g1.jpg" class="img-responsive img-centered" alt="">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="portfolio-container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h3>Our Gallery</h3>
+                                    <hr>
+                                    <img src="images/g2.jpg" class="img-responsive img-centered" alt="">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="portfolio-container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h3>Our Gallery</h3>
+                                    <hr>
+                                    <img src="images/g3.jpg" class="img-responsive img-centered" alt="">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="portfolio-container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h3>Our Gallery</h3>
+                                    <hr>
+                                    <img src="images/g4.jpg" class="img-responsive img-centered" alt="">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="portfolio-container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h3>Our Gallery</h3>
+                                    <hr>
+                                    <img src="images/g5.jpg" class="img-responsive img-centered" alt="">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="portfolio-container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h3>Our Gallery</h3>
+                                    <hr>
+                                    <img src="images/g6.jpg" class="img-responsive img-centered" alt="">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" aria-hidden="true">
+                <div class="modal-content">
+                    <div class="close-modal" data-dismiss="modal">
+                        <div class="lr">
+                            <div class="rl"></div>
+                        </div>
+                    </div>
+                    <div class="portfolio-container">
+                        <div class="row">
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <div class="modal-body">
+                                    <h3>Our Gallery</h3>
+                                    <hr>
+                                    <img src="images/g7.jpg" class="img-responsive img-centered" alt="">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--//gallery Modals-->
+        </div>
+    </div>
+</div>
+<!--//gallery-->
+<!--testimonials-->
+<div class="testimonials" id="testimonials">
+    <div class="container">
+        <h3 class="title wow lightSpeedIn animated" data-wow-delay=".5s">点评 Evaluation</h3>
+        <section class="slider">
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <div class="testimonials-grid">
+                            <div class="testi-text">
+                                <p>现代英歌舞多附会为“水泊梁山108将攻打大名府”的故事，其实这只是“流”，傩文化才是它的“源”。首先，英歌舞始终保持着“驱鬼逐疫”的实用功能，在过年或其他民俗节日里演出；其次，英歌舞不戴面具而画脸谱，这是傩面具的进化形式；《水浒传》中并无英雄舞蛇，英歌队伍中探路的时迁舞蛇源自闽南民系对蛇的崇拜。</p>
+                            </div>
+                            <div class="testi-left">
+                                <img src="images/default_avator.webp" alt=" " class="img-responsive"/>
+                            </div>
+                            <div class="testi-right">
+                                <h4>隗芾</h4>
+                                <h6>汕头大学教授</h6>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="testimonials-grid">
+                            <div class="testi-text">
+                                <p>
+                                    英歌是男子群体武舞，与农事、婚恋无关，并非源自秧歌或花鼓；舞者手持尺余双棒或一手持棒一手握鼓，服装为武士装扮，头槌、二槌等主要演员按所扮人物画脸谱，其余演员泛指梁山好汉，动作带有明显的南拳武技特征，具有潮汕本地特色；而大型队舞、战阵具有军乐特征，其主要渊源在武舞，整体表演形式杂糅了戏剧和武术对打，是本土性与外源性盘根错节所致。
+                                </p>
+                            </div>
+                            <div class="testi-left">
+                                <img src="images/default_avator.webp" alt=" " class="img-responsive"/>
+                            </div>
+                            <div class="testi-right">
+                                <h4>柳剑文</h4>
+                                <h6>韩山师范学院体育学院副教授</h6>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="testimonials-grid">
+                            <div class="testi-text">
+                                <p>论英歌舞源流如何，原始功能是什么，现实中的英歌舞熔戏剧、舞蹈、武术于一炉，具有很强的健身价值。这种从生产实践、战斗技能中转化出来的体育运动项目，充分体现了以增强自身体格体能、娱乐为主的体育精神。 </p>
+                            </div>
+                            <div class="testi-left">
+                                <img src="images/default_avator.webp" alt=" " class="img-responsive"/>
+                            </div>
+                            <div class="testi-right">
+                                <h4>蚁哲芸</h4>
+                                <h6>汕头大学体育部教师</h6>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--FlexSlider-->
+        <script defer src="js/jquery.flexslider.js"></script>
+        <script type="text/javascript">
+            $(window).load(function () {
+                $('.flexslider').flexslider({
+                    animation: "slide",
+                    start: function (slider) {
+                        $('body').removeClass('loading');
+                    }
+                });
+            });
+        </script>
+        <!--End-slider-script-->
+    </div>
+</div>
+<!--//testimonials-->
+<!--contact-->
+<div id="contact" class="contact">
+    <div class="container">
+        <div class="contact-main">
+            <h3 class="title wow lightSpeedIn animated" data-wow-delay=".5s">Contact Us</h3>
+            <div class="contacts-page">
+                <div class="contacts-box1">
+                    <div class="contacts-box1-sub">
+                        <div class="fell">
+                            FELL FREE TO WRITE US
+                        </div>
+                        <div>
+                            <input type="text" class="contacts-form-input" placeholder="邮箱"></input>
+                            <input type="text" class="contacts-form-input" placeholder="主题"></input>
+                            <textarea class="contacts-form-input-message" placeholder="内容" rows="10"></textarea>
+                            <input type="submit" value="发送" class="contacts-submit"></input>
+                        </div>
+                    </div>
+                </div>
+                <div class="contacts-box2">
+                    <div class="contacts">联系我们</div>
+                    <div class="make-any">Make any design your own using the Style Editor. Personalize fonts, colors,
+                        and
+                        layouts to create the custom look you want.
+                    </div>
+                    <div class="contacts-pic-text">
+                        <div class="contacts-left-icon">
+                            <img src="images/Map%20Icon.png"/>
+                        </div>
+                        <div class="contacts-right-text">
+                            广东技术师范大学<br/>
+                            Guangdong Polytechnic Normal University
+                        </div>
+                        <div class="contacts-left-icon">
+                            <img src="images/QQ%20Icon.png" height="30" width="30"/>
+                        </div>
+                        <div class="contacts-right-text">
+                            QQ群:514693473<br/>
+
+                        </div>
+                        <div class="contacts-left-icon">
+                            <img src="images/Mail%20Icon.png"/>
+
+                        </div>
+                        <div class="contacts-right-text">1033912784@qq.com</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--最后一页-->
+<footer class="footer">
+    <div class="footer-box">
+        <div class="footer-title"><a href="https://www.baidu.com" class="myHref">LEARN MORN</a></div>
+        <div class="footer-content">
+            How it works?
+
+            <!--<img src="img/Check%20Icon.png" width="200px" height="200px"/>-->
+        </div>
+        <div class="footer-content">Meeting tools</div>
+        <div class="footer-content">Live streaming</div>
+        <div class="footer-content">Contact method</div>
+    </div>
+    <div class="footer-box">
+        <div class="footer-title"><a href="https://www.baidu.com" class="myHref">ABOUT US</a></div>
+        <div class="footer-content">About us</div>
+        <div class="footer-content">Features</div>
+        <div class="footer-content">Privacy police</div>
+        <div class="footer-content">Terms & Conditions</div>
+    </div>
+    <div class="footer-box">
+        <div class="footer-title"><a href="https://www.baidu.com" class="myHref">SUPPORT</a></div>
+        <div class="footer-content">FAQ</div>
+        <div class="footer-content">Contact us</div>
+        <div class="footer-content">Live chat</div>
+        <div class="footer-content">Phone call</div>
+
+    </div>
+    <div class="footer-box">
+        <div class="mini-program">
+            <div class="mini-program-img">
+                <div>
+                    <img src="images/team/gongzhonghao.jpg" height="200px" width="200px"/>
+                </div>
+                <div class="footer-img-text">公众号</div>
+                <!--<div class="mini-text">小程序</div>-->
+            </div>
+            <div class="mini-program-img">
+                <div class="mini-program-img">
+                    <!--<div>-->
+                        <img src="images/team/gongzhonghao.jpg" height="200px" width="200px"/>
+                    <!--</div>-->
+                    <!--<div class="mini-text">视频号</div>-->
+                </div>
+                <div class="footer-img-text">小程序</div>
+            </div>
+        </div>
+        <!--<div class="footer-content">Great web UI kit for designers. freelancers or business</div>-->
+        <!--<div class="footer-content">-->
+        <!--    <img class="footer-content-icon" src="img/Twitter%20Icon.png"/>-->
+        <!--    <img class="footer-content-icon" src="img/Facebook%20Icon.png"/>-->
+        <!--    <img class="footer-content-icon" src="img/Google%20Icon.png"/>-->
+        <!--    <img class="footer-content-icon" src="img/Tumbler%20Icon.png"/>-->
+        <!--    <img class="footer-content-icon" src="img/Pinterest%20Icon.png"/>-->
+        <!--    <img class="footer-content-icon" src="img/LinkedIn%20Icon.png"/>-->
+        <!--</div>-->
+    </div>
+</footer>
+
+<!--//footer-->
+<!--smooth-scrolling-of-move-up-->
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        var defaults = {
+            containerID: 'toTop', // fading element id
+            containerHoverID: 'toTopHover', // fading element hover id
+            scrollSpeed: 1200,
+            easingType: 'linear'
+        };
+
+        $().UItoTop({easingType: 'easeOutQuart'});
+
+    });
+</script>
+<!--//smooth-scrolling-of-move-up-->
+<!--Bootstrap core JavaScript
+================================================== -->
+<!--Placed at the end of the document so the pages load faster -->
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
